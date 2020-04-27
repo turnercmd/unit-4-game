@@ -29,16 +29,16 @@ function Fighter(
 
   function initAllFighters() {
     fighters.push(
-      new Fighter("Jabba The Hut", "/images/jabba.jpg", 250, 32, 32, 10)
+      new Fighter("Jabba The Hut", "./Assets/images/jabba.jpg", 250, 32, 32, 10)
     );
     fighters.push(
-      new Fighter("Baby Yoda", "/images/yoda.jpg", 220, 10, 10, 30)
+      new Fighter("Baby Yoda", "./Assets/images/yoda.jpg", 220, 10, 10, 30)
     );
     fighters.push(
-      new Fighter("Rey", "/images/Rey.jpg", 160, 18, 9, 30)
+      new Fighter("Rey", "./Assets/images/Rey.jpg", 160, 18, 9, 30)
     );
     fighters.push(
-      new Fighter("Jar Jar Binks", "/images/jarjar.jpg", 140, 12, 12, 25)
+      new Fighter("Jar Jar Binks", "./Assets/images/jarjar.jpg", 140, 12, 12, 25)
     );
   }
 
